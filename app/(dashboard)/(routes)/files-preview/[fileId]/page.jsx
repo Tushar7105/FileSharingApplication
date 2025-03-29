@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import { getDoc, getFirestore, updateDoc, doc } from "firebase/firestore";
-import { app } from '@/firebaseConfig';
+import { app } from '../../../../../firebaseConfig';
 import { ArrowLeftSquare } from 'lucide-react';
 import FileInfo from './_components/FileInfo';
 import FileShareForm from './_components/FileShareForm';

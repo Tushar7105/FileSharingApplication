@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import UploadForm from './_components/UploadForm'
-// import { app } from '@/firebaseConfig'
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, getFirestore, setDoc } from "firebase/firestore";
 import { useUser } from '@clerk/nextjs';
